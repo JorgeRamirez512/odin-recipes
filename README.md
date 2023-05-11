@@ -10,3 +10,5 @@ By the end of this project, I hope to have a better understanding of how to stru
 2. Practice using HTML elements such as headings, paragraphs, and lists
 3. Develop skills in structuring and formatting web content
 4. Compile a collection of easy-to-follow recipes for personal reference
+
+Live site: https://jorgeramirez512.github.io/odin-recipes/
