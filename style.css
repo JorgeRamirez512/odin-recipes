@@ -1,54 +1,60 @@
+html {
+    box-sizing: border-box;
+}
 
 body {
-    background-image: linear-gradient(to right, #FFF7D4, #FFD95A);
+    background-image: linear-gradient(to right, hsl(49, 100%, 92%), hsl(46, 100%, 68%));
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-#header-homepage {
-    color: black
+
+h1 {
+    color: black;
+    margin: 30px auto;
+    text-align: center;
+    font-size: 50px;
 }
 
 img {
-    border: 2px solid black;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: hsl(46, 100%, 68%);
+    margin-left: 20px;
 }
 
-h4 {
+p {
+    margin-left: 19px;
+}
+
+h3 {
     color: black;
-    margin-bottom: 0;
+    margin-left: 20px;
+    margin-bottom: 10px;
 }
 
- li {
-    color: black;
+ol {
+    margin-left: 20px;
 }
 
+ul,
 a {
+    list-style: none;
     color: black;
-}
-
-#homepage {
-    padding-left: 0;
-    margin-top: 8px;
-}
-
-#homepage a {
     text-decoration: none;
 }
 
-.home-list {
-    list-style: none;
-    padding-left: 0;
-}
-
-h1 {
-    margin-bottom: 5px;
+ul {
+    margin: 5px 5px;
+    padding-left: 16px;
 }
 
 a:hover {
-    color: darkgoldenrod;
+    color: hsl(43, 89%, 38%);
+    font-size: 24px;
+    font-style: italic;
 }
 
 #return-home {
     text-decoration: none;
+    margin-left: 10px;
 }
-
-
